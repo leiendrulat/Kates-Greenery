@@ -1,0 +1,170 @@
+h1{ text-align: center;
+   font-family: cursive;
+  font-size: 4em;
+  color: rgb(128, 33, 218);
+    padding: 15%;
+    background-image: url("GC4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px cornsilk;
+
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+  .side {
+    float: left;
+    max-width: 180px;
+    margin: 0;
+    padding: 1em;
+}
+  article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+aside {
+    float: right; max-width: 600px;
+    margin: 0;
+    padding: 1em;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover,.dropdown:hover .dropbtn  {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+}
+p{text-align: justify;
+    padding: 5px;
+
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .column1 {
+  margin: 0 auto;
+    width: 52%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+marquee{
+    font-weight:bolder;
+    color: red;
+    font-size: 2em;
+}
+
+
+
+
